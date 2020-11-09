@@ -32,4 +32,9 @@ public class RestaurantResource {
         return "Hi!";
     }
 
+    @GetMapping ("/buy")
+    public String buy() {
+        return "Buy!";
+    }
+
 }
