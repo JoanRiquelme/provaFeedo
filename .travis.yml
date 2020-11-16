@@ -17,6 +17,6 @@ install:
 deploy:
   provider: heroku
   api_key: $HEROKU
-  app: testiiiiiing
+  app: feedo-prova
   on:
     branch: master
